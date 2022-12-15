@@ -37,7 +37,7 @@ a {
 }
 
 .navbar {
-  color: #fff;
+  color: rgb(176, 219, 139);
   height: 77px;
   line-height: 77px;
   font-weight: 600;
@@ -45,7 +45,7 @@ a {
   box-shadow: 0px 0px 30px 0.1px rgba(0, 0, 0, 0.25);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  background-color: #000;
+  background-color: rgb(16, 47, 56);
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -89,10 +89,10 @@ a {
 }
 
 .parallax {
-  background-color: #fff;
+  background-color: rgb(126, 118, 118);
   background-image: url(../img/home/page1.jpg);
   background-attachment: fixed;
-  height: 100vh;
+  height: 110vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -709,5 +709,7 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 .profile_picHover{
-  border-bottom:5px solid #7c00c9;border-left:5px solid #7c00c9;width: 300px; height:300px; border-radius: 50%
+  border-bottom:5px solid #7c00c9;border-left:5px solid #7c00c9;width: 300px; height:300px; border-radius: 30%;
+
+}
 }
