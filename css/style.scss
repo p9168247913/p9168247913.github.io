@@ -19,12 +19,12 @@ a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: #fff;
+	background: rgb(228, 241, 114);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #7c00c9;
+	background: #474648;
 }
 
 /* Handle on hover */
@@ -34,7 +34,7 @@ a {
 /* Scrollbar -- end */
 
 .bg {
-	background-color: #f7f9ff;
+	background-color: rgb(177, 176, 176);
 }
 
 .navbar {
@@ -110,7 +110,7 @@ a {
 		font-weight: 600;
 
 		a {
-			color: #7c00c9;
+			color: #51445a;
 		}
 
 		a:hover {
