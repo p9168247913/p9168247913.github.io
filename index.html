@@ -13,6 +13,7 @@
     gtag("js", new Date());
     gtag("config", "UA-162313419-1");
   </script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"   />
   <!-- Google Analytics Ends  -->
   <title>Programmer Pushkaraj | Pushkaraj Lolusare | Portfolio | Full-Stack Web Developer</title>
   <meta charset="utf-8" />
@@ -349,6 +350,24 @@
     </div>
   </section>
 
+  <div>
+    <!-- [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=p9168247913)](https://git.io/streak-stats) -->
+    <section id="github-streak-stats" id="gitstats">
+      <div id="section" class="card">
+        <div id="description">
+          <h3>GitHub Calendar</h3>
+
+          <div class="calendar" >
+            <div id="github-top-langs"></div>
+            <div id="github-stats-card" ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </div>
+  
+
   <!-- My Contact Ends  -->
   <!-- Footer Starts  -->
   <section>
@@ -402,3 +421,11 @@
 </body>
 
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+  GitHubCalendar(".calendar", "p9168247913", { responsive: true });
+</script>
