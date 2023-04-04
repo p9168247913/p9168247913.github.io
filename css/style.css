@@ -23,7 +23,7 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #80618c;
+  background: #7c00c9;
 }
 
 /* Handle on hover */
@@ -37,7 +37,7 @@ a {
 }
 
 .navbar {
-  color: #fff;
+  color: rgb(176, 219, 139);
   height: 77px;
   line-height: 77px;
   font-weight: 600;
@@ -45,7 +45,7 @@ a {
   box-shadow: 0px 0px 30px 0.1px rgba(0, 0, 0, 0.25);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  background-color: #80618c;
+  background-color: rgb(16, 47, 56);
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -89,10 +89,10 @@ a {
 }
 
 .parallax {
-  background-color: #eaeaea;
-  /* background-image: url(../img/home/page1.jpg); */
+  background-color: rgb(126, 118, 118);
+  background-image: url(../img/home/page1.jpg);
   background-attachment: fixed;
-  height: 100vh;
+  height: 110vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,7 +100,7 @@ a {
 
 .home {
   padding-top: 150px;
-  color: #80618c;
+  color: #fff;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -115,7 +115,7 @@ a {
 }
 
 .home .subtitle a {
-  color: #80618c;
+  color: #7c00c9;
 }
 
 .home .subtitle a:hover {
@@ -130,19 +130,10 @@ a {
   margin-top: 100px;
   text-align: center;
 }
-/* #aboutQ{
-  display: block;
-  margin: auto;
-  border-bottom:5px solid #80618c;border-left:5px solid #80618c;
-  /* border-left:5px solid #80618c; */
-  /* width: 25%;
-  height:20%; 
-  border-radius: 50%;
-} */ */
 
 .about h2 {
   padding: 10px;
-  border-bottom: 5px solid #80618c;
+  border-bottom: 5px solid #7c00c9;
   display: inline-block;
 }
 
@@ -159,7 +150,7 @@ a {
 
 .about .about-card .iconify {
   font-size: 100px;
-  color: #80618c;
+  color: #7c00c9;
 }
 
 .about .about-card p {
@@ -181,7 +172,7 @@ a {
 
 .skills h2 {
   padding: 10px;
-  border-bottom: 5px solid #80618c;
+  border-bottom: 5px solid #7c00c9;
   display: inline-block;
 }
 
@@ -204,12 +195,12 @@ a {
 
 .work h2 {
   padding: 10px;
-  border-bottom: 5px solid #80618c;
+  border-bottom: 5px solid #7c00c9;
   display: inline-block;
 }
 
 .work .project {
-  position: relative;
+  /* position: relative; */
   -webkit-box-shadow: 0px 0px 30px 0.1px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0px 30px 0.1px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -224,17 +215,15 @@ a {
 }
 
 .work .project .overlay {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  background-color: transparent;
+  /* -webkit-transition: 0.5s ease; */
+  /* transition: 0.5s ease; */
+  /* background-color: transparent; */
 }
 .worKExp {
   width: 50%;
@@ -244,7 +233,7 @@ a {
 }
 .work .project .text {
   color: white;
-  background-color: #80618c;
+  background-color: #7c00c9;
   padding: 15px 30px;
   border-radius: 25px;
   font-size: 20px;
@@ -300,7 +289,7 @@ a {
 
 .experience h2 {
   padding: 10px;
-  border-bottom: 5px solid #80618c;
+  border-bottom: 5px solid #7c00c9;
   display: inline-block;
 }
 
@@ -346,7 +335,7 @@ a {
 
 .contact h2 {
   padding: 10px;
-  border-bottom: 5px solid #80618c;
+  border-bottom: 5px solid #7c00c9;
   display: inline-block;
 }
 
@@ -394,17 +383,16 @@ a {
 
 .contact .form .textarea input:focus,
 .contact .form .textarea textarea:focus {
-  border: 1px solid #80618c;
-  background-color: #80618c;
+  border: 1px solid #7c00c9;
+  background-color: #7c00c913;
 }
 
 .contact .form button {
-  margin: auto;
   border-width: 0;
   outline: none;
   border-radius: 2px;
   padding: 12px 24px;
-  background-color: #80618c;
+  background-color: #7c00c9;
   color: #fff;
   font-size: inherit;
   font-weight: 600;
@@ -413,17 +401,6 @@ a {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-#contacted{
-  display: block;
-  margin: auto;
-  text-align: center;
-  width: 28%;
-  color: #fff;
-  background-color: #80618c;
-  border-radius: 2%;
-
-
 }
 
 .contact .form button:hover {
@@ -524,13 +501,6 @@ a {
 .projects .project img {
   width: 100%;
 }
-@media(max-width:1200px) {
-  #contacted{
-    width: 100%;
-  }
-  
-  
-}
 
 @media (max-width: 992px) {
   .navbar .navbar-nav {
@@ -555,9 +525,6 @@ a {
   }
   .navbar .navBar {
     top: 64px;
-  }
-  #contacted{
-    width: 100%;
   }
   .home {
     padding-top: calc((100vh - 285px) / 2);
@@ -626,7 +593,7 @@ a {
   .worKExp {
       width: 100%;
       margin-left: 0;
-  }
+    
 }
 
 .animated {
@@ -740,5 +707,7 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 .profile_picHover{
-  border-bottom:5px solid #80618c;border-left:5px solid #80618c;width: 300px; height:300px; border-radius: 50%;
+  border-bottom:5px solid #7c00c9;border-left:5px solid #7c00c9;width: 300px; height:300px; border-radius: 30%;
+
+}
 }
